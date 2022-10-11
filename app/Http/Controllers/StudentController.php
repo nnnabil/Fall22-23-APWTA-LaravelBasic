@@ -8,7 +8,6 @@ use App\Models\Student;
 class StudentController extends Controller
 {
     public function studentList(){
-        $student = array();
         // for($i=0; $i<5; $i++){
         //     $student = array(
         //         "name" => "Student " . ($i+1),
