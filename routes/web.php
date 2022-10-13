@@ -40,7 +40,7 @@ Route::post('/teacherCreate',[TeacherController::class, 'teacherCreateSubmitted'
 Route::get('/teacherList',[TeacherController::class, 'teacherList'])->name('teacherList')->middleware('ValidTeacher');
 
 //Teacher Course
-Route::get('/teacher/courses',[TeacherController::class,'teacherCourses'])->name('teacher.courses');
+Route::get('/teacher/courses/{id}',[TeacherController::class,'teacherCourses'])->name('teacher.courses')->middleware('ValidTeacher');
 //course
 Route::get('/courses',[CourseController::class,'courseTeacher'])->name('teacher.courses'); 
 
