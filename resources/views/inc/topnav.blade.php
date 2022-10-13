@@ -4,3 +4,4 @@
 <a class="btn btn-primary" href="{{route('studentCreate')}}">Create Student</a>
 <a class="btn btn-primary" href="{{route('teacherList')}}">Teacher List</a>
 <a class="btn btn-primary" href="{{route('teacherCreate')}}">Teacher Create</a>
+<a class="btn btn-primary" href="{{route('login')}}">Login</a>

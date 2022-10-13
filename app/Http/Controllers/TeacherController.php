@@ -111,4 +111,8 @@ class TeacherController extends Controller
         //eloquent
         return $t->assignedCourses();
     }
+    public function teacherDash(){
+        return view('teacher.teacherDash');
+
+    }
 }
