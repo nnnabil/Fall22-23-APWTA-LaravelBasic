@@ -14,6 +14,10 @@ class CourseSeeder extends Seeder
      */
     public function run()
     {
-        //
+        \App\Models\Course::factory()->create([
+            'name'=> 'PL1',
+            'c_code'=> 'CSC101',
+            't_id'=> 'Teacher 1',
+        ]);
     }
 }
